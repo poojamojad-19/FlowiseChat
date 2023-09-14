@@ -41,28 +41,7 @@ export const Badge = (props: Props) => {
   })
 
   return (
-    <span style={{
-      "font-size": '13px',
-      position: 'absolute',
-      bottom: 0,
-      padding: '10px',
-      margin: 'auto',
-      width: '100%',
-      "text-align": 'center',
-      color: props.poweredByTextColor ?? defaultTextColor,
-      "background-color": props.badgeBackgroundColor ?? '#ffffff'
-    }}>Powered by
-      <a
-        ref={liteBadge}
-        href={'https://flowiseai.com'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> Flowise</span>
-      </a>
+    <span 
     </span>
   )
 }
